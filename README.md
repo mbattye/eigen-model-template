@@ -1,16 +1,14 @@
 # eigen-model-template
 Example repository to provide a package to be implemented as a model in Eigen.
 
-eigen-model-template/
-│
-├── src/
-│   ├── __init__.py
-│   ├── main.py                # Main entry point for the script.
-│   ├── model.py               # Module for the model logic.
-│   ├── data_loader.py         # Module for loading and processing data.
-│   ├── config.py              # Module for managing environment variables and settings.
-│   ├── utils.py               # Utility functions (e.g., logging, preprocessing).
-│
-├── requirements.txt           # Python dependencies.
-├── .env                       # Environment variables file.
-└── README.md                  # Project documentation.
+### Explanation:
+- **src/**: Contains all source code for the project.
+  - `__init__.py`: Initializes the package and manages imports.
+  - `main.py`: The script's main entry point, orchestrates the program.
+  - `model.py`: Defines the logic for the virtual gauge model.
+  - `data_loader.py`: Handles loading and preprocessing of data.
+  - `config.py`: Manages configuration and environment variables.
+  - `utils.py`: Includes utility functions like logging and preprocessing helpers.
+- **requirements.txt**: Lists Python dependencies required for the project.
+- **.env**: Stores environment variables for local development.
+- **README.md**: Documentation for the project.
